@@ -1,0 +1,13 @@
+cd */unix_tests #usei * pois nao sei onde estara a pasta unix
+touch skills2.txt
+echo >> skills2.txt 'Unix'
+echo >> skills2.txt 'Bash'
+echo >> skills2.txt 'Internet'
+cat >> skills1.txt
+Trybe
+Google
+Nutrição
+Biel
+Gabriel
+# CTRL+d para finalizar o comando#	
+

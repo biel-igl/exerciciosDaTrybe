@@ -1,0 +1,17 @@
+touch unix_tests
+cd unix_tests
+touch trybe.txt
+cp trybe.txt trybe_backup.txt
+mv trybe.txt trybe1.txt
+touch backup
+mv trybe_backup.txt backup/
+touch backup2
+mv backup/trybe_backup.txt backup2
+rmdir backup
+mv backup2 backup
+ls *
+rm -rf backup
+clear
+head -5
+tail -4
+rm *.txt
