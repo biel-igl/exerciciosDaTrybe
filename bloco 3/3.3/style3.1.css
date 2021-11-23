@@ -1,0 +1,12 @@
+h1, p{
+    text-align:center;
+}
+li:hover{
+    color: aquamarine;
+}
+li:active{
+    font-style:oblique;
+}
+li{
+    list-style: none;
+}
