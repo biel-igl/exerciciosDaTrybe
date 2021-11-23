@@ -1,7 +1,7 @@
 body{
     color:#F0F17D;
-    background-color: rgb(196, 95, 174);
     background-image: linear-gradient(#147961, #20411e);
-    background-repeat:no-repeat;
-    background-attachment:fixed;
+    background-repeat:no-repeat;/* para as cores não se repetirem e assim preencher toda a pagina  */
+    background-attachment:fixed;/* como vai mudar a cor da pagina se vai ser fixa ou acompanhar o scroll*/
+    
 }
