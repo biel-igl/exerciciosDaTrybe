@@ -1,6 +1,6 @@
-const a=1;
-const b=2;
-const c=3;
+/* const a1=1;
+const b1=2;
+const c1=3;
 (a+b);
 (a-b);
 (a*b);
@@ -39,4 +39,27 @@ if (pnz!=0){
     }
 } else{
     console.log("zero");
+ *//* } */
+//5
+const a=90;
+const b=90;
+const c=60;
+let h=null;
+let soma=a+b+c;
+if(soma==180){
+    if(a>=0){
+        h=true;
+        if(b>=0){
+            h=true;
+            if(c>=0){
+                h=true;
+            }else{
+            }
+        }else{
+        }
+    }else{
+    }
+} else{
 }
+
+console.log(Boolean(h))
