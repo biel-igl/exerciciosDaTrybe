@@ -13,9 +13,9 @@ if (a>b){
     console.log(b);
 };
 //3
-const m31=1
-const m32=2
-const m33=3
+const m31=1;
+const m32=2;
+const m33=3;
 if(m31>m32){
     if(m31>m33){
         console.log(m31);
@@ -26,6 +26,17 @@ if(m31>m32){
     if(m32>m33){
         console.log(m32);
     } else{
-        console.log(m33)
+        console.log(m33);
     }
+}
+//4
+const pnz=1;
+if (pnz!=0){
+    if (pnz>=0){
+        console.log("positive");
+    } else {
+        console.log("negative");
+    }
+} else{
+    console.log("zero");
 }
