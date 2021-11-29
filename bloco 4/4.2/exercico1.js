@@ -1,6 +1,10 @@
-let tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
+/* //1
+let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+let menuServices = menu[1];
 
-tasksList.push('Fazer exercícios da Trybe');  // adiciona mais uma tarefa
-console.log(tasksList);
+console.log(menuServices); */
+//2
+let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+let indexOfPortfolio = menu.indexOf('Portfólio');
 
-// ['Tomar café', 'Reunião', 'Brincar com o cachorro', 'Fazer exercícios da Trybe']
+console.log(indexOfPortfolio);
