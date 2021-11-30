@@ -62,7 +62,7 @@ let imp=[];
 for (let a=0;a<25;a+=1){
     imp.push(a+1);
 }
-console.log(imp);*/
+console.log(imp);
 //9
 let imp=[];
 let div=[];
@@ -73,3 +73,27 @@ for (let c=0;c<imp.length;c+=1){
     div.push(imp[c]/2);
 }
 console.log(div);
+//bonus
+for (let index = 1; index < numbers.length; index += 1) {
+    for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+      if (numbers[index] < numbers[secondIndex]) {
+        let position = numbers[index];
+        numbers[index] = numbers[secondIndex];
+        numbers[secondIndex] = position;
+      }
+    }
+  }
+console.log(numbers);*/
+//decrescente
+let tama=numbers.length
+for (let index = tama-1; index>=0; index-=1) {
+    for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+        console.log(secondIndex);
+      if (numbers[index] > numbers[secondIndex]) {
+        let position = numbers[index];
+        numbers[index] = numbers[secondIndex];
+        numbers[secondIndex] = position;
+      }
+    }
+  }
+  console.log(numbers);
