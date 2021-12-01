@@ -74,6 +74,7 @@ for (let c=0;c<imp.length;c+=1){
 }
 console.log(div);
 //bonus
+//1
 for (let index = 1; index < numbers.length; index += 1) {
     for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
       if (numbers[index] < numbers[secondIndex]) {
@@ -83,8 +84,8 @@ for (let index = 1; index < numbers.length; index += 1) {
       }
     }
   }
-console.log(numbers);*/
-//decrescente
+console.log(numbers);
+//2
 let tama=numbers.length
 for (let index = tama-1; index>=0; index-=1) {
     for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
@@ -96,4 +97,5 @@ for (let index = tama-1; index>=0; index-=1) {
       }
     }
   }
-  console.log(numbers);
+  console.log(numbers);*/
+//3
