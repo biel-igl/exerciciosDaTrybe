@@ -4,27 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Exercício 5.1</title>
-    
     <style>
       main, section {
         border-color: black;
         border-style: solid;
       }
-
       .title {
         text-align: center;
       }
-
       .main-content {
         background-color: yellow;
       }
-
       .main-content .center-content {
         background-color: red;
         width: 50%;
         margin: 0 auto;
       }
-
       .main-content .center-content p {
         font-style: italic;
       }
@@ -54,6 +49,33 @@
  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
+       function exercicios(){
+           function mudaText(){
+               document.getElementsByTagName("p")[0].innerText="Muito feliz Legal e bonito Casado com minha Isadora";
+            }
+            mudaText();
+            function mudaCor(){
+                document.getElementsByTagName("main")[0].style.backgroundColor="rgb(76,164,109)";
+            }
+            mudaCor();
+            function mudaCor2(){
+                document.getElementsByTagName("section")[0].style.backgroundColor="white";
+            }
+            mudaCor2();
+            function corrige(){
+                document.getElementsByClassName("title")[0].innerText="Exercícios 5.1 - JavaScript";
+            }
+            corrige();
+            function minusculo(){
+                let a=document.getElementsByTagName("p")[0].innerText.toLocaleLowerCase();
+                document.getElementsByTagName("p")[0].innerText=a.toString();
+            }
+            minusculo();
+            function todosOsP(){
+                console.log(document.getElementsByTagName("p")[0].innerText);
+            }
+            todosOsP();
+        }
     </script>
   </body>
 </html>
