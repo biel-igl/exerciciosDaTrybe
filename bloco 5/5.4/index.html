@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo WebStorage</title>
+</head>
+<body>
+  <main>
+    <div>
+      <label for="corDoFundo">Muda cor do fundo da pagina</label>
+      <input type="color" id="mudaFundo" name="corDoFundo" value="#FFFFFF">
+    </div>
+    <div>
+      <label for="corDoTexto">Muda cor do texto pagina</label>
+      <input type="color" id="mudaTexto" name="corDoTexto" value="#000000">
+    </div>
+    <div>
+      <input name="tamanhoDaLetra" type="range" id="fontSize" min="12" max="40" step="1" value="16">
+      <label for="tamanhoDaLetra" id="tamanhoQueEsta">A letra esta em: 16px</label>
+    </div>
+    <div>
+      <input name="espaçoEntre" type="range" id="lineHeight" min="15" max="100" step="5" value="20">
+      <label for="espaçoEntre" id="tamanhoEsta">O espaçamento esta em : 15px</label>
+    </div>
+    <div>
+      <label for="serif" id="fontSerif"></label>
+      <input class="mudaFonte" name="mudaFonte1" type="button" id="serif" value="serif"
+      >
+      <label for="monospace" id="fontMonospace"></label>
+      <input class="mudaFonte" name="mudaFonte2" type="button" id="monospace" value="monospace"
+      >
+      <label for="arial" id="fontArial"></label>
+      <input class="mudaFonte" name="mudaFonte3" type="button" id="arial" value="arial"
+      >
+    </div>
+    <div class="text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet libero vitae tortor vestibulum aliquam. Ut eget nibh nibh. Etiam erat dui, ultricies sed arcu sit amet, lobortis suscipit neque. Donec tempus diam nisi, quis scelerisque arcu ornare eget. Ut lacus eros, ultrices eu massa in, efficitur hendrerit metus. Quisque nec tincidunt magna. Nam viverra metus velit, nec elementum nisi egestas a. Cras suscipit velit ut orci posuere lacinia. Suspendisse potenti. Duis facilisis fringilla nulla eu condimentum.</p>
+
+      <p>Nam tincidunt leo elit, sed porta velit posuere et. Quisque nec maximus magna, eget tincidunt diam. Duis id sapien nec neque viverra vestibulum id nec mauris. Cras feugiat mattis lacus vel dictum. Quisque sit amet mauris lacinia, finibus risus at, gravida neque. Mauris blandit, sem id suscipit molestie, mi nisl pharetra neque, et scelerisque erat augue ut risus. Donec a magna nec massa interdum sollicitudin. Curabitur lacinia velit eget fermentum semper.</p>
+        
+      <p>Proin volutpat nisi eros, quis accumsan metus rutrum eu. Donec aliquam neque sit amet neque commodo, vitae posuere lectus aliquet. Nam scelerisque risus enim, a mollis sem pharetra eget. Nunc et ipsum eros. Duis vitae dapibus turpis. Curabitur vitae scelerisque sem, et porta diam. Praesent varius massa at ornare ornare. Phasellus in accumsan justo, eu pulvinar lacus. Vestibulum justo ex, finibus euismod iaculis a, accumsan nec lorem. Vestibulum tempor magna a felis auctor mollis. Pellentesque vel risus luctus enim ultrices tincidunt a eget metus. Aliquam porta lectus diam, vitae mollis urna efficitur nec. Suspendisse enim eros, elementum ut elit a, rhoncus eleifend ex.</p>
+        
+      <p>Morbi ultrices purus a volutpat ullamcorper. Nam cursus est risus, ac rhoncus sem porta ut. Fusce tristique risus eget turpis elementum gravida vel quis turpis. Curabitur ut ipsum eu tortor vulputate eleifend ut at eros. Vivamus mauris leo, interdum sed eros sollicitudin, euismod elementum quam. Sed viverra porttitor augue, non commodo nibh sollicitudin ut. Cras consectetur nunc nec odio euismod lacinia.</p>
+        
+      <p>Aliquam sit amet augue venenatis, porta elit vel, porta lectus. Morbi volutpat lobortis tellus, ac molestie ante venenatis vitae. Pellentesque non arcu risus. Sed feugiat neque eget justo ultricies porta et non erat. Sed ac dictum nibh, id euismod ligula. Mauris ultricies gravida risus. Cras vel faucibus orci. Nullam sem nisl, bibendum eu sapien sed, laoreet tempor enim. Maecenas et vehicula tortor. Maecenas et augue neque. Donec tellus sapien, mollis eget massa a, vulputate finibus massa. Proin id ligula quis tortor commodo dignissim eu eu nulla. Mauris dignissim lorem in quam iaculis ultrices. Donec at sodales erat. Vestibulum et neque ut justo pellentesque suscipit.</p>
+        
+  
+      <p>Aliquam dignissim commodo sapien et venenatis. Aenean non dolor libero. Pellentesque accumsan a risus nec venenatis. Cras fermentum dui eget tortor vulputate bibendum. Praesent eu mi quis nisi tempor malesuada a nec mi. Etiam volutpat tempor nibh sed tempor. Suspendisse non nulla blandit nulla blandit tempor. Proin est quam, lobortis in est ut, dictum fermentum enim. Phasellus fringilla dictum lectus quis consequat. Sed ultrices pulvinar erat ut accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
